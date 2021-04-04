@@ -1,0 +1,19 @@
+
+# conda environment
+#
+# Copyright 2021 John Hanley. MIT licensed.
+
+name: grid-map
+
+channels:
+  - conda-forge
+
+dependencies:
+  - flake8 >= 3.9.0
+  - isort >= 5.8.0
+  - pip >= 21.0.1
+  - python >= 3.9.2
+  - ruamel.yaml >= 0.16.12
+  - tqdm >= 4.59.0
+  - pip:
+    - uszipcode >= 0.2.4
