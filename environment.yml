@@ -15,5 +15,6 @@ dependencies:
   - python >= 3.9.2
   - ruamel.yaml >= 0.16.12
   - tqdm >= 4.59.0
+  - streamlit >= 0.79.0
   - pip:
     - uszipcode >= 0.2.4

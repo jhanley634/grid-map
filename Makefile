@@ -9,6 +9,10 @@ ci:
 prepare:
 	conda env update
 
+fix-imports: isort
+isort:
+	isort --ff=yes grid_map
+
 EXCLUDE = '/\.(git|idea)/|LICENSE'
 L = --files-without-match
 C2021 = 'Copyright 2021 John Hanley\. MIT licensed\.'
